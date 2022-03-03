@@ -14,7 +14,7 @@ wget -O gs.tgz $PACKAGE # Couldn't get curl to work for some reason
 tar xvf gs.tgz
 mv $BINARY $LOCATION/bin/gs
 rm gs.tgz
-rm -rf /ghostscript-9.55.0-linux-x86_64
+rm -rf ghostscript-9.55.0-linux-x86_64
 
 echo "-----> Building runtime environment for Ghostscript to $LOCATION"
 
